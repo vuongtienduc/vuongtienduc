@@ -44,19 +44,23 @@ This is a simple **CRUD API** built with **Express.js, TypeScript, and MongoDB**
 
 ### 2️⃣ Install TypeScript & Dependencies
 
+1. Run the following command to initialize a TypeScript project
 ```sh
 npm init -y
 ```
 
+2. Install TypeScript and ts-node
 ```sh
 npm install --save-dev typescript ts-node @types/node
 ```
 
+3. Install Express and its TypeScript definitions
 ```sh
 npm install express mongoose dotenv cors
 npm install --save-dev @types/express @types/mongoose @types/cors
 ```
 
+4. Initialize a TypeScript configuration file
 ```sh
 npx tsc --init
 ```
