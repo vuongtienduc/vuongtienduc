@@ -42,10 +42,23 @@ This is a simple **CRUD API** built with **Express.js, TypeScript, and MongoDB**
 
 ### 1️⃣ Clone the Repository
 
-### 2️⃣ Install Dependencies
+### 2️⃣ Install TypeScript & Dependencies
 
 ```sh
-npm install
+npm init -y
+```
+
+```sh
+npm install --save-dev typescript ts-node @types/node
+```
+
+```sh
+npm install express mongoose dotenv cors
+npm install --save-dev @types/express @types/mongoose @types/cors
+```
+
+```sh
+npx tsc --init
 ```
 
 ### 3️⃣ Create `.env` File
